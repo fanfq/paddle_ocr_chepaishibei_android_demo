@@ -1,0 +1,3 @@
+/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/Native.dir

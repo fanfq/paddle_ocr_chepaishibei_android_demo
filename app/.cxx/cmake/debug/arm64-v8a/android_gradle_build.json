@@ -1,0 +1,95 @@
+{
+  "stringTable": {
+    "0": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android23 --gcc-toolchain=/Users/fred/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/fred/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DNative_EXPORTS -I/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/../../../PaddleLite/cxx/include -isystem /Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Wno-format -ffast-math -Ofast -Os -fvisibility=hidden -fvisibility-inlines-hidden -fdata-sections -ffunction-sections -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/CMakeLists.txt",
+    "/Users/fred/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/fred/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake",
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/OpenCVConfig-version.cmake",
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/OpenCVConfig.cmake",
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVConfig.cmake",
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVModules.cmake",
+    "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/OpenCV/sdk/native/jni/abi-arm64-v8a/OpenCVModules-release.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/fred/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/fred/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "Native-Debug-arm64-v8a": {
+      "buildCommand": "/Users/fred/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/.cxx/cmake/debug/arm64-v8a\" Native",
+      "buildType": "debug",
+      "toolchain": "3648353382",
+      "abi": "arm64-v8a",
+      "artifactName": "Native",
+      "files": [
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/native.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ocr_clipper.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ocr_cls_process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ocr_crnn_process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ocr_db_post_process.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ocr_ppredictor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/ppredictor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/predictor_input.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/predictor_output.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/src/main/cpp/preprocess.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/build/intermediates/cmake/debug/obj/arm64-v8a/libNative.so",
+      "runtimeFiles": [
+        "/Users/fred/workspace/mycode/baidu_paddle/PaddleOCR_dygraph/deploy/android_demo/app/PaddleLite/cxx/libs/arm64-v8a/libpaddle_light_api_shared.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "3648353382": {
+      "cppCompilerExecutable": "/Users/fred/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
