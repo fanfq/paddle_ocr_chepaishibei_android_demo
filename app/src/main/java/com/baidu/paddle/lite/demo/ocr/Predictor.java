@@ -31,7 +31,7 @@ public class Predictor {
     protected float inferenceTime = 0;
     // Only for object detection
     protected Vector<String> wordLabels = new Vector<String>();
-    protected int detLongSize = 960;
+    protected int detLongSize = 1440;
     protected float scoreThreshold = 0.1f;
     protected Bitmap inputImage = null;
     protected Bitmap outputImage = null;
@@ -251,11 +251,11 @@ public class Predictor {
         Canvas canvas = new Canvas(outputImage);
         Paint paintFillAlpha = new Paint();
         paintFillAlpha.setStyle(Paint.Style.FILL);
-        paintFillAlpha.setColor(Color.parseColor("#3B85F5"));
+        paintFillAlpha.setColor(Color.parseColor("#FF0000"));
         paintFillAlpha.setAlpha(50);
 
         Paint paint = new Paint();
-        paint.setColor(Color.parseColor("#3B85F5"));
+        paint.setColor(Color.parseColor("#FF0000"));
         paint.setStrokeWidth(5);
         paint.setStyle(Paint.Style.STROKE);
 

@@ -1,3 +1,18 @@
+车牌识别基于官方android ocr demo修改，车牌识别的模型位于 `assets/models/ppocr_v3` 
+
+preview：
+
+<div align="left">
+    <img src="https://cdn.fanfq.com/picgo/20220715154446.jpeg?imageslim" width="400">
+</div>
+
+*注意：图片分辨率的问题，该demo中指定了 `det long size` 值为 `1440`，det部分还有优化空间。
+
+-----------
+
+
+
+
 - [Android Demo](#android-demo)
   - [1. 简介](#1-简介)
   - [2. 近期更新](#2-近期更新)
@@ -110,6 +125,7 @@ PaddleOCR demo共提供了6种运行模式，如下图
    * CPU Power Mode: 模型运行模式，大小核设定
 3. 输入设置
    * det long size: DB模型预处理时图像的长边长度，超过此长度resize到该值，短边进行等比例缩放，小于此长度不进行处理。
+   * 该值比较重要，取决于照片素材的分辨率，如果分辨率高则适当调整该字段，与此同时det还是有优化空间
 4. 输出设置
    * Score Threshold: DB模型后处理box的阈值，低于此阈值的box进行过滤，不显示。
 

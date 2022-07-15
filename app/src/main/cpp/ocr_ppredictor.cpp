@@ -144,6 +144,8 @@ cv::Mat DetResizeImg(const cv::Mat img, int max_size_len,
   return resize_img;
 }
 
+
+//检测，车牌的具体位置
 void OCR_PPredictor::infer_det(cv::Mat &origin, int max_size_len, std::vector<OCRPredictResult> &ocr_results) {
   std::vector<float> mean = {0.485f, 0.456f, 0.406f};
   std::vector<float> scale = {1 / 0.229f, 1 / 0.224f, 1 / 0.225f};
@@ -190,6 +192,9 @@ void OCR_PPredictor::infer_rec(const cv::Mat &origin_img, int run_cls, OCRPredic
   else{
     crop_img = origin_img;
   }
+
+
+  LOGI("ocr cpp rec Filter_box cols %ld rows %ld", crop_img.cols,crop_img.rows);
 
   if(run_cls){
     ClsPredictResult cls_res = infer_cls(crop_img);
