@@ -1,4 +1,10 @@
-车牌识别基于官方android ocr demo修改，车牌识别的模型位于 `assets/models/ppocr_v3` 
+#一种基于PaddleOCR的轻量级车牌识别模型, 手机端部署 
+
+[一种基于PaddleOCR的轻量级车牌识别模型](https://github.com/PaddlePaddle/PaddleOCR/blob/release/2.5/applications/%E8%BD%BB%E9%87%8F%E7%BA%A7%E8%BD%A6%E7%89%8C%E8%AF%86%E5%88%AB.md)
+
+车牌识别基于官方[paddle ocr android demo](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.5/deploy/android_demo)修改，
+
+`.nb` 车牌识别的模型位于 `assets/models/ppocr_v3`
 
 preview：
 
@@ -8,8 +14,9 @@ preview：
 
 *注意：图片分辨率的问题，该demo中指定了 `det long size` 值为 `1440`，det部分还有优化空间。
 
------------
 
+
+-----------
 
 
 
